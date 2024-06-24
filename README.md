@@ -1,5 +1,12 @@
 # ATS Resume Checker
 
+Demo video--
+
+https://github.com/Maheshh-Busam/ATSResumeChecker/assets/107562051/f6f52716-e697-4330-8725-5f9c87412faa
+
+
+
+
 ## Description
 
 ATS Resume Checker is a web application that allows users to check how well their resume matches a job description, helping them improve their chances of getting noticed by employers using Applicant Tracking Systems (ATS).
@@ -10,7 +17,7 @@ ATS Resume Checker is a web application that allows users to check how well thei
 - Get a score indicating how well your resume matches the job requirements.
 - Understand the ATS resume screening process with detailed explanations.
 - Easy-to-use interface for quick resume checks.
-
+- 
 ## Technologies Used
 
 - React.js + vite for the front-end user interface.
