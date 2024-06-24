@@ -1,0 +1,52 @@
+.theme-toggle {
+    padding: 0;
+    margin: 0;
+    height: fit-content;
+    width: fit-content;
+    align-items: center;
+    
+  }
+  
+  body.dark-theme {
+    background-color: #121212;
+    color: #ffffff;
+  }
+  
+  body.dark-theme .header {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+  
+  body.dark-theme .footer {
+    background-color: #1f1f1f;
+    color: #ffffff;
+  }
+  
+  body.dark-theme .intro-content,
+  body.dark-theme .login-register-block {
+    background-color: #2c2c2c;
+    color: #ffffff;
+  }
+
+  .theme-toggle input[type="checkbox"] {
+    display: none; 
+  }
+  .theme-toggle span{
+    text-align: center;
+    padding: 4px 8px;
+    margin-right: 5px;
+
+  }
+
+  @media (max-width: 768px) {
+    .theme-toggle {
+      margin-left: 50%;
+      margin-right: 0;
+      
+    }
+
+    .theme-toggle input[type="checkbox"] {
+      display: none;
+    }
+  }
+ 

@@ -1,0 +1,72 @@
+  
+  h2 {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 300px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 10px;
+  }
+  
+  .loading {
+    margin-top: 10px;
+  }
+
+  @media (max-width: 768px) {
+    .container {
+      display: block;
+      padding: 5px;
+      text-align: center;
+      margin-top: 40%;
+      margin-left: 0;
+    }
+  
+    h2 {
+      font-size: 24px;
+      margin-bottom: 15px;
+    }
+  
+    input {
+      /* Override any styles for mobile */
+      width: 80%;
+      margin-bottom: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .button {
+      /* Override any styles for mobile */
+      width: 80%;
+      margin-bottom: 10px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    p {
+      /* Override any styles for mobile */
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  
+    .loading {
+      /* Override any styles for mobile */
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  
+    .error {
+      /* Override any styles for mobile */
+      font-size: 14px;
+      margin-bottom: 10px;
+    }
+  }
+  

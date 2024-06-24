@@ -1,0 +1,155 @@
+
+  .jd-heading{
+    margin-right: 15%;
+  }
+  .textarea {
+    width: 100%;
+    height: 200px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #cccccc;
+    border-radius: 5px;
+    resize: both;
+    
+  }
+  
+  .input-file {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .result {
+    margin-top: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  .btns {
+    width: fit-content;
+    display: flex;
+    flex-direction: row;
+  }
+ .button{
+    margin-left: 10px;
+ }
+ 
+
+ .input-file {
+    margin-bottom: 10px;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .input-file input[type="file"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .input-file label {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-file label:hover {
+    background-color: #0056b3;
+  }
+  
+  .input-file span {
+    margin-left: 10px;
+  }
+
+  .button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .result {
+    margin-top: 1rem;
+    padding: 1rem;
+    
+    border-radius: 4px;
+  }
+
+  .ats-content{
+    margin-left: 120%;
+  }
+
+  @media (max-width: 768px) {
+    .ats-content{
+      margin-left: 0;
+    }
+    .ats-content {
+      /* Override any styles for mobile */
+      margin-top: 20%;
+      padding: 20px;
+      text-align: center;
+    }
+  
+    h1 {
+      /* Override any styles for mobile */
+      font-size: 18px;
+      margin-bottom: 15px;
+    }
+  
+    .jd-heading {
+      /* Override any styles for mobile */
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+  
+    .textarea {
+      /* Override any styles for mobile */
+      width: 80%;
+      height: 100px;
+      margin-bottom: 15px;
+      padding: 10px;
+      box-sizing: border-box;
+    }
+  
+    .input-file {
+      /* Override any styles for mobile */
+      margin-bottom: 15px;
+    }
+  
+    
+  
+    .input-file span {
+      /* Override any styles for mobile */
+      display: block;
+      margin-bottom: 5px;
+    }
+  
+    .btns {
+      /* Override any styles for mobile */
+      margin-top: 0px;
+      display: flex;
+      flex-direction: column;
+      margin-left: 25%;
+
+    }
+  
+    .btns button {
+      width: 100%;
+      padding: 10px;
+      box-sizing: border-box;
+      
+    }
+  
+    .result {
+      /* Override any styles for mobile */
+      margin-top: 20px;
+      padding: 10px;
+      box-sizing: border-box;
+      margin-bottom: 10px;
+    }
+  }
+  
